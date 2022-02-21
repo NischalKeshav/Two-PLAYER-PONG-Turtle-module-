@@ -14,9 +14,9 @@ class Paddle(Turtle):
     self.head = 0
     self.setheading(90)
   def up(self):
-    self.head = 10
+    self.head = 7
   def down(self):
-    self.head = -10
+    self.head =-7
   def move(self):
     self.Ypos = self.ycor()
     if (self.head<0 and self.Ypos<=-260) or (self.head >0 and  self.Ypos>=260):

@@ -17,6 +17,7 @@ class ScoreBoard(Turtle):
         self.penup()
     self.goto(-45,270)
   def keep_score(self,score1,score2): 
-      self.write(f"{score1}        {score2}",font=("Times New Roman",18,'normal'))
+      self.clear()
+      self.write(f"{score1}        {score2}",font=("Times New Roman",22,'normal'))
     
 
