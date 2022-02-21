@@ -9,5 +9,14 @@ class Paddle(Turtle):
     self.penup()
     self.color("white")
     self.shape("square")
-    self.shapesize(stretch_len=.8,stretch_wid=5)
+    self.shapesize(stretch_len=5,stretch_wid=.75)
     self.showturtle()
+    self.head = 0
+    self.setheading(90)
+  def up(self):
+    self.head = 3
+  def down(self):
+    self.head = -3
+  def move(self):
+    self.forward(self.head)
+  
