@@ -14,9 +14,10 @@ class Paddle(Turtle):
     self.head = 0
     self.setheading(90)
   def up(self):
-    self.head = 3
+    self.head = 10
   def down(self):
-    self.head = -3
+    self.head = -10
   def move(self):
+    
     self.forward(self.head)
   
